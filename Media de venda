@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real nota1,nota2,nota3,nota4,media,total
+		cadeia aluno
+		
+		escreva("Digite o nome do Vendedor: ")
+		leia(aluno)
+		escreva("Digite a venda de janeiro: $")
+		leia(nota1)
+		escreva("Digite a venda de fevereiro: $")
+		leia(nota2)
+		escreva("Digite a venda de março: $")
+		leia(nota3)
+		escreva("Digite a venda de abril: $")
+		leia(nota4)
+		
+		media = (nota1+nota2+nota3+nota4)/4
+		total = (nota1+nota2+nota3+nota4)
+		escreva("O vendedor: " + aluno + "Vendeu o total de " + total +" E Obteve a media de venda de : " + media)
+	}
+}
