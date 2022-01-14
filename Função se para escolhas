@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Escolha uma opção:")
+		escreva("1 - Abrir Netflix")
+		escreva("\n" + "2 - Abrir Amazon Prime")
+		escreva("\n" + "3 - Abrir HBO GO")
+		escreva("\n" + "4 - Abrir Sair")
+		inteiro menu = 0 
+		escreva("\n" + "Sua opção:")
+		leia(menu)
+
+		//Utilizando SE para escolhas
+		se (menu ==1) {
+			escreva("Ok!! Abrir Netflix!!")
+		}
+		se (menu ==2) {
+			escreva("Ok!! Abrir Amazon Prime!!")
+		}
+		se (menu ==3) {
+			escreva("Ok!! Abrir HBO GO!!")
+		}
+		se (menu ==4) {
+			escreva("Saindo do menu...")
+		}
+		}
+}
